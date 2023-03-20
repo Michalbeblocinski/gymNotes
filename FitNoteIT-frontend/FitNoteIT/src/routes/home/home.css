@@ -1,0 +1,20 @@
+.App {
+  height: 100%;
+}
+.App .home__img, .App .home__container {
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+}
+.App .home__img {
+  height: auto;
+}
+.App .home__container {
+  display: flex;
+  flex-direction: row;
+}
+@media only screen and (max-width: 950px) {
+  .App .home__container {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,11 @@
+@import "../../assets/variables.scss";
+
+.records__form-button-inside {
+    width: 200px;
+    background-color: $gold;
+    border: none;
+}
+.records__form-button-inside:hover {
+    background-color: #f1ad64 !important;
+    color: black !important;   
+}

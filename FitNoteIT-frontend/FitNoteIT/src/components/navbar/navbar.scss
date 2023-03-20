@@ -1,0 +1,83 @@
+@import "../../assets/variables.scss";
+
+.navbar {
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    background-color: $background-color-navbar;
+
+    &__top {
+        width: 100%;
+        height: 26px;
+        border-bottom: 3px solid $gold;
+    }
+
+    &__bottom {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .left,
+        .center,
+        .right,
+        .right2,
+        .left2 {
+            width: 20%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            a {
+                color: $gold;
+                text-decoration: none;
+                font-size: 24px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                p {
+                    margin: 0;
+
+                    &:hover {
+                        color: #f1ad64;
+                    }
+                }
+                    
+                .navabar__logo {
+                    height: 69px;
+                    width: auto;
+                }
+
+            }
+
+            .navbar__start-button {
+                border: none;
+                background: none;
+                font-size: 40px;
+                color: #F8F7EB;
+
+                @media only screen and (max-width: 1200px) {
+                    font-size: 24px;
+                }
+
+                &:hover {
+                    color: #f1ad64;
+                }
+            }
+
+            .navbar__logout-button {
+                border: none;
+                background: $gold;
+                font-size: 24px;
+                color: black;
+
+                &:hover {
+                    background-color: #f1ad64;
+                }
+            }
+        }
+    }
+}

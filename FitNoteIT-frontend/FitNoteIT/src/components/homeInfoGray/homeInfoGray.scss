@@ -1,0 +1,54 @@
+@import "../../assets/variables.scss";
+
+.home__info {
+    width: 33.33%;
+    background-color: $background-color;
+    padding: 19px 24px;
+    position: relative;
+    min-height: 335px;
+
+    @media only screen and (max-width: 950px) {
+        width: 100vw;
+        border-bottom: 2px solid $gold;
+    }
+    
+    h2 {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38px;
+        color: $gold;
+
+        @media only screen and (max-width: 950px) {
+           font-size: 24px;
+        }
+    }
+
+    &-text {
+        margin: 50px 0;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 38px;
+        color: $text-color-gray;
+
+        @media only screen and (max-width: 950px) {
+            font-size: 18px;
+        }
+    }
+
+    &-button {
+        position: absolute;
+        bottom: 10px ;
+        right: 50px;
+        width: 150px;
+        height: 30px;
+        font-size: 16px;
+        background-color: $gold;
+        color: black;
+        border: none;
+        
+        &:hover {
+            background-color: #f1ad64;
+        }
+
+    }
+}

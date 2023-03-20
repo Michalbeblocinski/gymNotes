@@ -1,0 +1,70 @@
+@import "../../assets/variables.scss";
+
+.login__form {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30vw;
+    background-color: $background-color-form;
+    height: calc(100vh - 140px);
+    
+    @media only screen and (max-width: 950px) {
+        position: static;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    &-status {
+        h1 {
+            font-size: 48px;
+            text-align: center;
+            margin: 40px 0 0;
+            color: $gold;
+
+            @media only screen and (max-width: 950px) {
+                font-size: 32px;
+            }
+        }
+    }
+
+    form {
+        margin: 10% 40px;
+
+        .login__form-button {
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+
+            button {
+                height: 45px;
+                width: 160px;
+                background-color: $gold;
+                color: black;
+                border: none;
+                font-size: 18px;
+                
+                &:hover {
+                    background-color: #f1ad64;
+                }
+            }
+        }
+
+        .login__form-login,.login__form-password {
+            label {
+                color: $gold;
+                font-size: 40px;
+            }
+
+            input {
+                font-family: 'Oswald', sans-serif;
+                background-color: $background-color;
+                border: none;
+                color: $gold;
+                width: 100%;
+                margin-bottom: 90px;
+                height: 45px;
+            } 
+        }
+    }  
+}

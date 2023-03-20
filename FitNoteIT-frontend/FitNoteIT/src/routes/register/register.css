@@ -1,0 +1,16 @@
+.register {
+  position: relative;
+}
+.register__img {
+  height: calc(100vh - 140px);
+}
+@media only screen and (max-width: 950px) {
+  .register__img {
+    display: none;
+  }
+}
+.register__img-photo {
+  height: 100%;
+  width: auto;
+  float: right;
+}/*# sourceMappingURL=register.css.map */

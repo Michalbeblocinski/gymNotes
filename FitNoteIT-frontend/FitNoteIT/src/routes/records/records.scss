@@ -1,0 +1,55 @@
+@import "../../assets/variables.scss";
+
+.records-page {
+    .records {
+        &__img {
+            img {
+                position: fixed;
+                height: 95vh;
+                width: auto;
+                bottom: 0;
+                left: calc(50vw - 66vh);
+                z-index: -4;
+
+                @media only screen and (max-width: 960px) {
+                    left: calc(50vw - 84vh);
+                }
+
+                @media only screen and (max-width: 568px) {
+                    display: none;
+                }
+            }
+        }
+
+        &__background-element {
+            height: 68vh;
+            width: 56vw;
+            position: fixed;
+            bottom: 17.2vh;
+            left: 6vw;
+            background: linear-gradient(90.23deg, rgba(19, 19, 18, 0.78) 0.01%, rgba(77, 56, 3, 0.64) 98.05%);
+            z-index: -5;
+
+            @media only screen and (max-width: 568px) {
+                display: none;
+            }
+        }
+
+    }
+
+    .footer p {
+        position: fixed;
+        bottom: 0;
+        left: calc(5%);
+        background: none !important;
+
+        @media only screen and (max-width: 568px) {
+            position: static;
+            margin: auto;
+        }
+
+        @media only screen and (max-height: 488px) {
+           display: none;
+        }
+    }
+}

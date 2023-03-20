@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+.register__form {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30vw;
+  background-color: #151512;
+  height: calc(100vh - 140px);
+}
+@media only screen and (max-width: 950px) {
+  .register__form {
+    position: static;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+  }
+}
+.register__form-status h1 {
+  font-size: 48px;
+  text-align: center;
+  margin: 40px 0 0;
+  color: #b17a41;
+}
+@media only screen and (max-width: 950px) {
+  .register__form-status h1 {
+    font-size: 32px;
+  }
+}
+.register__form form {
+  margin: 5% 40px;
+}
+.register__form form .register__form-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register__form form .register__form-button button {
+  height: 45px;
+  width: 160px;
+  background-color: #b17a41;
+  color: black;
+  border: none;
+  font-size: 18px;
+}
+.register__form form .register__form-button button:hover {
+  background-color: #f1ad64;
+}
+.register__form form .register__form-login label,
+.register__form form .register__form-password label,
+.register__form form .register__form-password-again label,
+.register__form form .register__form-email label {
+  color: #b17a41;
+  font-size: 32px;
+}
+.register__form form .register__form-login p,
+.register__form form .register__form-password p,
+.register__form form .register__form-password-again p,
+.register__form form .register__form-email p {
+  color: #b17a41;
+}
+.register__form form .register__form-login input,
+.register__form form .register__form-password input,
+.register__form form .register__form-password-again input,
+.register__form form .register__form-email input {
+  font-family: "Oswald", sans-serif;
+  background-color: #1E1D1D;
+  border: none;
+  color: #b17a41;
+  width: 100%;
+  margin-bottom: 30px;
+  height: 45px;
+}/*# sourceMappingURL=registerForm.css.map */

@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+.records__form {
+  width: 35vw;
+  height: 74vh;
+  background: linear-gradient(59.12deg, #1E1D1D 9.53%, #090808 96.51%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  right: 7%;
+  top: 17vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-height: 710px) {
+  .records__form {
+    height: 86vh;
+    top: 100px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .records__form {
+    width: 46vw;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .records__form {
+    width: 56vw;
+  }
+}
+@media only screen and (max-width: 568px) {
+  .records__form {
+    display: block;
+    width: 100%;
+    position: static;
+  }
+}
+.records__form-title {
+  text-align: center;
+}
+@media only screen and (max-height: 960px) {
+  .records__form-title {
+    margin: 2vh 0 0;
+  }
+}
+.records__form-title h1 {
+  font-size: 64px;
+  color: #b17a41;
+  margin: 0;
+}
+@media only screen and (max-height: 960px) {
+  .records__form-title h1 {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 568px) {
+  .records__form-title h1 {
+    font-size: 36px;
+  }
+}
+.records__form form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0.6vh;
+}
+.records__form-exercise,
+.records__form .records__form-date,
+.records__form .records__form-weight {
+  width: 307px;
+}
+.records__form-exercise p,
+.records__form .records__form-date p,
+.records__form .records__form-weight p {
+  font-size: 11px;
+  color: rgba(143, 104, 4, 0.999);
+}
+.records__form-exercise label,
+.records__form-exercise input,
+.records__form-exercise select,
+.records__form .records__form-date label,
+.records__form .records__form-date input,
+.records__form .records__form-date select,
+.records__form .records__form-weight label,
+.records__form .records__form-weight input,
+.records__form .records__form-weight select {
+  color: #b17a41;
+}
+.records__form-exercise label,
+.records__form .records__form-date label,
+.records__form .records__form-weight label {
+  font-size: 40px;
+}
+@media only screen and (max-height: 960px) {
+  .records__form-exercise label,
+  .records__form .records__form-date label,
+  .records__form .records__form-weight label {
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 568px) {
+  .records__form-exercise label,
+  .records__form .records__form-date label,
+  .records__form .records__form-weight label {
+    font-size: 24px;
+  }
+}
+.records__form-exercise select,
+.records__form .records__form-date select,
+.records__form .records__form-weight select {
+  overflow-y: auto;
+  max-height: 100px;
+}
+.records__form-exercise select option,
+.records__form .records__form-date select option,
+.records__form .records__form-weight select option {
+  max-height: 100px;
+  overflow-y: scroll;
+}
+.records__form-exercise input,
+.records__form-exercise select,
+.records__form .records__form-date input,
+.records__form .records__form-date select,
+.records__form .records__form-weight input,
+.records__form .records__form-weight select {
+  width: 100% !important;
+  height: 52px;
+  margin: 0;
+  background-color: #1E1D1D;
+  border: none;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 5.5vh;
+}
+@media only screen and (max-height: 960px) {
+  .records__form-exercise input,
+  .records__form-exercise select,
+  .records__form .records__form-date input,
+  .records__form .records__form-date select,
+  .records__form .records__form-weight input,
+  .records__form .records__form-weight select {
+    font-size: 24px;
+    margin-bottom: 3.5vh;
+  }
+}
+@media only screen and (max-height: 776px) {
+  .records__form-exercise input,
+  .records__form-exercise select,
+  .records__form .records__form-date input,
+  .records__form .records__form-date select,
+  .records__form .records__form-weight input,
+  .records__form .records__form-weight select {
+    margin-bottom: 1.5vh;
+  }
+}
+@media only screen and (max-width: 568px) {
+  .records__form-exercise input,
+  .records__form-exercise select,
+  .records__form .records__form-date input,
+  .records__form .records__form-date select,
+  .records__form .records__form-weight input,
+  .records__form .records__form-weight select {
+    font-size: 20px;
+  }
+}
+.records__form .records__form-weight input {
+  margin-bottom: 3vh;
+}
+@media only screen and (max-height: 960px) {
+  .records__form .records__form-weight input {
+    margin-bottom: 1vh;
+  }
+}
+.records__form-button {
+  display: flex;
+  flex-direction: row;
+}
+.records__form-button-x {
+  width: 40px !important;
+  margin-left: 33px !important;
+  min-width: 40px !important;
+  border-radius: 0px !important;
+}
+.records__form-button button {
+  background-color: #b17a41;
+  color: black;
+  border: none;
+  width: 230px;
+  height: 40px;
+  font-size: 36px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 100ms !important;
+}
+.records__form-button button:hover {
+  background-color: #f1ad64 !important;
+  color: black !important;
+}/*# sourceMappingURL=recordsForm.css.map */

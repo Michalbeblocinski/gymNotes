@@ -1,0 +1,43 @@
+@import "../../assets/variables.scss";
+
+.home__gold-element {
+    width: 33.33%;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(101.05deg, #865A2F 40.56%, #472A0C 100%);
+    padding: 19px 15px 0;
+
+
+    @media only screen and (max-width: 950px) {
+        width: 100vw;
+        border-bottom: 2px solid $gold;
+        padding-bottom: 19px;
+    }
+
+    &-text {
+        font-size: 24px;
+        color: black;
+        width: 50%;
+
+        @media only screen and (max-width: 950px) {
+            width: 100%;
+            font-size: 18px;
+        }
+    }
+
+    &-img {
+        position: relative;
+        width: 50%;
+
+        @media only screen and (max-width: 950px) {
+            display: none;
+        }
+
+        img {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    }
+
+}

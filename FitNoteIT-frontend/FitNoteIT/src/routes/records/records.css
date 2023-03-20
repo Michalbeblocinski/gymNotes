@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+.records-page .records__img img {
+  position: fixed;
+  height: 95vh;
+  width: auto;
+  bottom: 0;
+  left: calc(50vw - 66vh);
+  z-index: -4;
+}
+@media only screen and (max-width: 960px) {
+  .records-page .records__img img {
+    left: calc(50vw - 84vh);
+  }
+}
+@media only screen and (max-width: 568px) {
+  .records-page .records__img img {
+    display: none;
+  }
+}
+.records-page .records__background-element {
+  height: 68vh;
+  width: 56vw;
+  position: fixed;
+  bottom: 17.2vh;
+  left: 6vw;
+  background: linear-gradient(90.23deg, rgba(19, 19, 18, 0.78) 0.01%, rgba(77, 56, 3, 0.64) 98.05%);
+  z-index: -5;
+}
+@media only screen and (max-width: 568px) {
+  .records-page .records__background-element {
+    display: none;
+  }
+}
+.records-page .footer p {
+  position: fixed;
+  bottom: 0;
+  left: 5%;
+  background: none !important;
+}
+@media only screen and (max-width: 568px) {
+  .records-page .footer p {
+    position: static;
+    margin: auto;
+  }
+}
+@media only screen and (max-height: 488px) {
+  .records-page .footer p {
+    display: none;
+  }
+}/*# sourceMappingURL=records.css.map */

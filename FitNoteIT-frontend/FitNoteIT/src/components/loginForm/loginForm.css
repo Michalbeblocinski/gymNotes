@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+.login__form {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30vw;
+  background-color: #151512;
+  height: calc(100vh - 140px);
+}
+@media only screen and (max-width: 950px) {
+  .login__form {
+    position: static;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+  }
+}
+.login__form-status h1 {
+  font-size: 48px;
+  text-align: center;
+  margin: 40px 0 0;
+  color: #b17a41;
+}
+@media only screen and (max-width: 950px) {
+  .login__form-status h1 {
+    font-size: 32px;
+  }
+}
+.login__form form {
+  margin: 10% 40px;
+}
+.login__form form .login__form-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login__form form .login__form-button button {
+  height: 45px;
+  width: 160px;
+  background-color: #b17a41;
+  color: black;
+  border: none;
+  font-size: 18px;
+}
+.login__form form .login__form-button button:hover {
+  background-color: #f1ad64;
+}
+.login__form form .login__form-login label, .login__form form .login__form-password label {
+  color: #b17a41;
+  font-size: 40px;
+}
+.login__form form .login__form-login input, .login__form form .login__form-password input {
+  font-family: "Oswald", sans-serif;
+  background-color: #1E1D1D;
+  border: none;
+  color: #b17a41;
+  width: 100%;
+  margin-bottom: 90px;
+  height: 45px;
+}/*# sourceMappingURL=loginForm.css.map */

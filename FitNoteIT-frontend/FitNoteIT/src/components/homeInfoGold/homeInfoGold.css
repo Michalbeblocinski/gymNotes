@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+.home__gold-element {
+  width: 33.33%;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(101.05deg, #865A2F 40.56%, #472A0C 100%);
+  padding: 19px 15px 0;
+}
+@media only screen and (max-width: 950px) {
+  .home__gold-element {
+    width: 100vw;
+    border-bottom: 2px solid #b17a41;
+    padding-bottom: 19px;
+  }
+}
+.home__gold-element-text {
+  font-size: 24px;
+  color: black;
+  width: 50%;
+}
+@media only screen and (max-width: 950px) {
+  .home__gold-element-text {
+    width: 100%;
+    font-size: 18px;
+  }
+}
+.home__gold-element-img {
+  position: relative;
+  width: 50%;
+}
+@media only screen and (max-width: 950px) {
+  .home__gold-element-img {
+    display: none;
+  }
+}
+.home__gold-element-img img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}/*# sourceMappingURL=homeInfoGold.css.map */
